@@ -147,6 +147,8 @@ body {
 }
 .powerOnBottomMenuAppContentWinMenuItemIMgIcon{
     width: 70%;
+    background-position: center;
+    background-size: cover;
 }
 
 .powerOnBottomMenuAppContentWinMenuItem:hover{

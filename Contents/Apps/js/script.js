@@ -6,7 +6,7 @@ function renderApps() {
       data.forEach((item) => {
         const cardHTML = `
                     <button class="bodyAppCardBg" title="${item.title}">
-                        <img src="${location.href}/Contents/Apps/Contents/${item.name}/img/icon.png" alt="${item.name}" class="bodyAppCardImgIcon">
+                        <img src="./Contents/Apps/Contents/${item.name}/img/icon.png" alt="${item.name}" class="bodyAppCardImgIcon">
                         <p class="bodyAppCardNameText">${item.title}</p>
                     </button>
                 `;
@@ -41,7 +41,7 @@ function renderApps() {
       data.forEach((item) => {
         const cardSideHTML = `
                     <button class="powerOnBottomMenuAppContentWinMenuItem">
-                        <img src="${location.href}/Contents/Apps/Contents/${item.name}/img/side-icon.png" alt="${item.name}" class="powerOnBottomMenuAppContentWinMenuItemIMgIcon">
+                        <img src="./Contents/Apps/Contents/${item.name}/img/side-icon.png" alt="${item.name}" class="powerOnBottomMenuAppContentWinMenuItemIMgIcon">
                     </button>
                 `;
         document
