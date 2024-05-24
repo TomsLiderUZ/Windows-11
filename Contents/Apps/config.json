@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Files",
+    "title" : "This computer"
+  },
+  {
+    "name": "Trash",
+    "title" : "Trash"
+  },
+  {
+    "name": "Settings",
+    "title" : "Settings"
+  },
+  {
+    "name": "Chrome",
+    "title": "Chrome"
+  },
+  {
+    "name": "Telegram",
+    "title": "Telegram"
+  } 
+]

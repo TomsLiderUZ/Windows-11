@@ -1,0 +1,15 @@
+[
+    {
+        "about":{
+            "name": "Windows 11 Pro",
+            "processor": "Intel(R) i9  8.16 GHz",
+            "nvdia": "Nvdia Geforce RTX 4090",
+            "ram": "500.00 GB (available: 400.90 GB)"
+        },
+        "memory":{
+            "ccd": "5 TB",
+            "hard-1": "3 TB",
+            "hard-2": "2 TB"
+        }
+    }
+]

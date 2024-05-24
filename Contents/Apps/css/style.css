@@ -1,0 +1,56 @@
+.bodyAppCardBg{
+    width: 85px;
+    min-height: 85px;
+    height: max-content;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    transition: all 0.1s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    row-gap: 8px;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 5px 0 0 0;
+    background-color: transparent;
+}
+.bodyAppCardBg *::selection{
+    background-color: initial;
+}
+
+
+.bodyAppCardBg:hover{
+    background-color: rgba(255, 255, 255, 0.192);
+    border: 1px solid gray;
+}
+.bodyAppCardBg:focus{
+    background-color: rgba(255, 255, 255, 0.363);
+    border: 1px solid gray;
+}
+
+.bodyAppCardImgIcon{
+    width: 50px;
+    height: 50px;
+    /* background-color: red; */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bodyAppCardNameText{
+    width: 100%;
+    height: max-content;
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: -0.1px;
+    color: white;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-shadow: 0px 0px 5px black;
+    text-align: center;
+}

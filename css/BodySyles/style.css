@@ -1,0 +1,240 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+
+
+.powerOn{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/Backgrounds/dafault_8.jpg");
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.powerOnTopApps{
+    width: 100%;
+    height: 94%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 90% 100px 10px;
+    box-sizing: border-box;
+    row-gap: 10px;
+    overflow: hidden;
+}
+
+.powerOnBottomMenu{
+    width: 100%;
+    height: 6%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: rgba(14, 14, 14, 0.555);
+    backdrop-filter: blur(15px);
+}
+
+.powerOnBottomMenuApps{
+    width: 75%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.powerOnBottomMenuFuctions{
+    width: 25%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 0 10px 0 0;
+    /* background-color: green; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    /* gap: 5px; */
+}
+
+.powerOnBottomMenuColor{
+    width: max-content;
+    height: 100%;
+    padding: 0 5px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background-color: transparent;
+    border: 0;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 100;
+    transition: all 0.2s linear;
+    flex-wrap: wrap;
+    color: white;
+}
+.powerOnBottomMenuFucMsgs{
+    font-size: 18px;
+    transform:matrix(-1.00,0.00,0.00,1.00,0,0);
+    padding: 0 8px;
+}
+
+.powerOnBottomMenuFucTimeItemRow{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.powerOnBottomMenuFucTimeItemRow:first-child{
+    padding: 5px 0 0 0;
+}
+
+
+
+
+.powerOnBottomMenuColor:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.powerOnBottomMenuAppContents{
+    width: max-content;
+    height: 100%;
+    /* overflow: hidden; */
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55%;
+}
+.powerOnBottomMenuAppContentWinMenu{
+    width: max-content;
+    height: 100%;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    /* background-color: greenyellow; */
+}
+.powerOnBottomMenuAppContentWinMenuItem{
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border: 0;
+}
+
+.powerOnBottomMenuAppContentGetappMenu{
+    width: max-content;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 10px;
+}
+.powerOnBottomMenuAppContentWinMenuItemIMgIcon{
+    width: 70%;
+}
+
+.powerOnBottomMenuAppContentWinMenuItem:hover{
+    background-color: rgba(255, 255, 255, 0.137);
+}
+
+.powerOnBottomMenuAppContentWinMenuItem .fa-magnifying-glass{
+    font-size: 25px;
+    color: white;
+}
+
+.powerOnBottomMenuAppContentWinMenuItem:hover .winIconSquareItem{
+    fill: rgb(0, 247, 255);
+}
+
+.winIconSquareItem{
+    fill: rgb(0, 195, 255);
+    transition: all 0.1s linear;
+}
+
+
+
+.powerOnRightClickMenuBg{
+    width: 280px;
+    height: 350px;
+    background-color: rgba(18, 21, 39, 0.699);
+    position: fixed;
+    z-index: 999999999;
+    border-radius: 10px;
+    backdrop-filter: blur(7px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    opacity: 0;
+    transition: all 0.1s linear;
+    border: 1px solid rgba(255, 255, 255, 0.11);
+    overflow: hidden;
+}
+
+.powerOnRightClickMenuBgMenu{
+    width: 100%;
+    height: 11%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-wrap: nowrap;
+    cursor: pointer;
+    color: white;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    transition: all 0.1s linear;
+    background-color: transparent;
+    border: 0;
+}
+.powerOnRightClickMenuBgMenuHrOwn{
+    border-bottom: 1px solid rgba(255, 255, 255);
+    opacity: 0.2;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.powerOnRightClickMenuBgMenuIcon{
+    margin-right: 10px;
+    font-size: 19px;
+    color: rgb(157, 161, 197);
+}
+
+.powerOnRightClickMenuBgMenu:hover{
+    background-color: rgba(0, 0, 0, 0.466);
+    border-radius: 10px;
+}
+
+
+.powerOnRightClickMenuBgMenuRight{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    box-sizing: border-box;
+    padding: 0 15px 0 0;
+}
+
+.powerOnRightClickMenuBgMenu p{
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+}
